@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- title is used to provide
+			a specific name to our web-page! -->
+		<title>Registration page</title>
+		<!-- link function is used here, so that we can
+	connect our css file with our html file externally -->
+		<link rel="stylesheet" href="1.css" />
+	</head>
+	<body>
+		<div id="MAIN">
+			<h1 id="heading"> Register</h1>
+		</div>
+        
+		<form action="/register" method="post">
+			<input type="text"
+				name="name"
+				placeholder="Enter name!" />
+			<br />
+			<br />
+
+            <input type="text"
+				name="email"
+				placeholder="Enter email!" />
+			<br />
+			<br />
+
+            <input type="password"
+				name="password"
+				placeholder="Enter password" />
+			<br />
+			<br />
+			<button class="btn"
+					type="submit">Submit</button>
+            <br />
+            <br />
+            
+            <a href="/login">Already registered? Login here</a>
+		</form>
+
+        
+	</body>
+</html>

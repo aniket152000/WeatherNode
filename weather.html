@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- title is used to provide
+			a specific name to our web-page! -->
+		<title>WEATHER-CALCULATOR</title>
+		<!-- link function is used here, so that we can
+	connect our css file with our html file externally -->
+		<link rel="stylesheet" href="1.css" />
+	</head>
+	<body>
+		<div id="MAIN">
+			<h1 id="heading">WEATHER REPORT</h1>
+		</div>
+        
+		<form action="/tempraturecalculator" method="post">
+			<input type="text"
+				name="City"
+				placeholder="Enter City name!" />
+			<br />
+			<br />
+			<button class="btn"
+					type="submit">Get Temprature
+            </button>
+		</form>
+	</body>
+</html>
